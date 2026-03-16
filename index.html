@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>FORTPEDIA — Le Guide Fortnite Ultime</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div id="cur"></div>
+<div id="cur2"></div>
+
+<!-- LANG SWITCHER -->
+<div class="lang-bar">
+  <button class="lang-btn active" data-lang="fr">FR</button>
+  <button class="lang-btn" data-lang="en">EN</button>
+  <button class="lang-btn" data-lang="es">ES</button>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">
+    <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
+      <polygon points="13,1 25,7.5 25,18.5 13,25 1,18.5 1,7.5" stroke="#FFD700" stroke-width="1.5" fill="none"/>
+      <polygon points="13,5 21,9.5 21,16.5 13,21 5,16.5 5,9.5" fill="rgba(255,215,0,0.08)"/>
+      <text x="13" y="17" text-anchor="middle" font-family="Bebas Neue,sans-serif" font-size="10" fill="#FFD700">FP</text>
+    </svg>
+    FORTPEDIA
+  </a>
+  <ul class="nav-links">
+    <li><a href="#histoire" data-i18n="nav.histoire">Histoire</a></li>
+    <li><a href="#bases" data-i18n="nav.bases">Bases</a></li>
+    <li><a href="#modes" data-i18n="nav.modes">Modes</a></li>
+    <li><a href="#stats" data-i18n="nav.stats">📊 Stats</a></li>
+    <li><a href="#patch" data-i18n="nav.patch">Patch Notes</a></li>
+    <li><a href="#esport" data-i18n="nav.esport">Esport</a></li>
+    <li><a href="#tournois" data-i18n="nav.tournois">Tournois</a></li>
+    <li><a href="#classements" data-i18n="nav.classements">Classements</a></li>
+    <li><a href="#reseaux" data-i18n="nav.reseaux">Réseaux</a></li>
+    <li><a href="#glossaire" data-i18n="nav.glossaire">Glossaire</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-particles" id="particles"></div>
+  <p class="hero-eyebrow" data-i18n="hero.eyebrow">Guide complet — 16 mars 2026</p>
+  <h1 class="hero-title">
+    FORT<span class="glitch" data-text="PEDIA">PEDIA</span>
+  </h1>
+  <p class="hero-sub" data-i18n="hero.sub">Tout ce que tu dois savoir sur le Battle Royale le plus joué au monde : histoire, boutique du jour, esport, tournois et bien plus.</p>
+  <div class="hero-ctas">
+    <a href="#histoire" class="btn btn-primary" data-i18n="hero.cta1">Commencer</a>
+    <a href="#stats" class="btn btn-outline" data-i18n="hero.cta2">📊 Stats & Records</a>
+  </div>
+  <div class="hero-scroll" data-i18n="hero.scroll">Scroll</div>
+</section>
+
+<div class="sep"></div>
+
+<!-- HISTOIRE -->
+<section id="histoire">
+  <div class="s-inner">
+    <p class="s-label rv" data-i18n="section.01">Chapitre 01</p>
+    <h2 class="s-title rv" data-i18n="histoire.title">L'<em>histoire</em> de Fortnite</h2>
+    <p class="s-desc rv" data-i18n="histoire.desc">D'un jeu de survie coopératif à un phénomène culturel mondial — l'évolution de Fortnite depuis ses débuts.</p>
+    <div class="tl rv">
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-year">2011</div><div class="tl-name" data-i18n="tl1.name">L'idée naît chez Epic Games</div><div class="tl-text" data-i18n="tl1.text">Epic Games annonce Fortnite lors de la VGX. Le jeu est présenté comme un shooter de survie coopératif avec construction, inspiré de Minecraft et Left 4 Dead.</div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-year">Juil. 2017</div><div class="tl-name" data-i18n="tl2.name">Sortie de Sauver le Monde</div><div class="tl-text" data-i18n="tl2.text">Le mode PvE payant sort en accès anticipé. Les joueurs affrontent des vagues de zombies et construisent des fortifications pour survivre.</div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-year">Sept. 2017</div><div class="tl-name" data-i18n="tl3.name">Battle Royale — Gratuit</div><div class="tl-text" data-i18n="tl3.text">Epic lance Fortnite Battle Royale entièrement gratuit. 10 millions de joueurs en 2 semaines. La révolution commence.</div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-year">2018</div><div class="tl-name" data-i18n="tl4.name">Phénomène culturel mondial</div><div class="tl-text" data-i18n="tl4.text">125 millions de joueurs. Les danses Fortnite envahissent les cours d'école. Epic génère 2,4 milliards de dollars sur l'année.</div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-year">Oct. 2019</div><div class="tl-name" data-i18n="tl5.name">L'événement "Fin" — Chapitre 2</div><div class="tl-text" data-i18n="tl5.text">Un trou noir engloutit l'île pendant 2 jours. Le monde entier regarde. Le Chapitre 2 révèle une toute nouvelle île.</div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-year">2020–2026</div><div class="tl-name" data-i18n="tl6.name">Collaborations & métavers</div><div class="tl-text" data-i18n="tl6.text">Concerts d'Ariana Grande et Travis Scott. Crossovers Marvel, Star Wars, Dragon Ball, Squid Game, South Park, Solo Leveling... Le jeu devient une plateforme culturelle.</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- BASES -->
+<section id="bases">
+  <div class="s-inner">
+    <p class="s-label rv" data-i18n="section.02">Chapitre 02</p>
+    <h2 class="s-title rv" data-i18n="bases.title">Les <em>bases</em> du jeu</h2>
+    <p class="s-desc rv" data-i18n="bases.desc">100 joueurs tombent sur une île, le dernier survivant gagne. Voici les mécaniques fondamentales à maîtriser.</p>
+    <div class="cards">
+      <div class="card rv"><div class="card-icon">🪂</div><div class="card-title" data-i18n="base1.t">Le Bus de Combat</div><div class="card-text" data-i18n="base1.d">Le bus traverse l'île en début de partie. Tu choisis où sauter, puis tu planes avec ton planeur. L'atterrissage stratégique est crucial pour bien démarrer.</div></div>
+      <div class="card rv"><div class="card-icon">🌀</div><div class="card-title" data-i18n="base2.t">La Tempête</div><div class="card-text" data-i18n="base2.d">Un cercle toxique se rétrécit progressivement, forçant tous les joueurs à se rapprocher. Rester dans la tempête fait perdre des points de vie rapidement.</div></div>
+      <div class="card rv"><div class="card-icon">🔫</div><div class="card-title" data-i18n="base3.t">Les Armes</div><div class="card-text" data-i18n="base3.d">Tu peux porter 5 objets. Chaque arme a une rareté (couleur) qui définit ses statistiques : dégâts, précision, temps de rechargement.</div></div>
+      <div class="card rv"><div class="card-icon">🏗️</div><div class="card-title" data-i18n="base4.t">La Construction</div><div class="card-text" data-i18n="base4.d">La signature de Fortnite. Récoltez des matériaux (bois, pierre, métal) puis construisez murs, planchers, rampes et toits pour vous protéger.</div></div>
+      <div class="card rv"><div class="card-icon">❤️</div><div class="card-title" data-i18n="base5.t">Santé & Bouclier</div><div class="card-text" data-i18n="base5.d">100 PV de santé + 100 PV de bouclier maximum. Soignez-vous avec des bandages ou potions après chaque combat, avant d'engager le suivant.</div></div>
+      <div class="card rv"><div class="card-icon">🎒</div><div class="card-title" data-i18n="base6.t">Le Loot</div><div class="card-text" data-i18n="base6.d">Les coffres brillants contiennent de bonnes armes. Apprenez les spots de loot dense sur la carte pour équiper rapidement votre personnage.</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- MODES -->
+<section id="modes">
+  <div class="s-inner">
+    <p class="s-label rv" data-i18n="section.03">Chapitre 03</p>
+    <h2 class="s-title rv" data-i18n="modes.title">Les <em>modes</em> de jeu</h2>
+    <p class="s-desc rv" data-i18n="modes.desc">Fortnite n'est pas qu'un seul jeu. Plusieurs modes coexistent avec des expériences radicalement différentes.</p>
+    <div class="modes">
+      <div class="mode-card rv" style="background:linear-gradient(135deg,#1a1000,#2a1800);"><div class="mode-icon">🏆</div><div class="mode-title" data-i18n="mode1.t">Battle Royale</div><div class="mode-text" data-i18n="mode1.d">Solo, Duo ou Escouade. 100 joueurs, 1 seul gagnant. Le mode principal de Fortnite depuis 2017.</div></div>
+      <div class="mode-card rv" style="background:linear-gradient(135deg,#001020,#001a30);"><div class="mode-icon">⚡</div><div class="mode-title" data-i18n="mode2.t">Zéro Build</div><div class="mode-text" data-i18n="mode2.d">Battle Royale sans construction. Le Survibouclier remplace les murs. Idéal pour les nouveaux joueurs.</div></div>
+      <div class="mode-card rv" style="background:linear-gradient(135deg,#120020,#1e0035);"><div class="mode-icon">🛡️</div><div class="mode-title" data-i18n="mode3.t">Sauver le Monde</div><div class="mode-text" data-i18n="mode3.d">Mode PvE coopératif. Combats des zombies, construis des défenses. Passe en free-to-play le 16 avril 2026.</div></div>
+      <div class="mode-card rv" style="background:linear-gradient(135deg,#001510,#002515);"><div class="mode-icon">🎨</div><div class="mode-title" data-i18n="mode4.t">Créatif / UEFN</div><div class="mode-text" data-i18n="mode4.d">Construis tes propres îles avec l'Unreal Editor. Des millions de maps communautaires disponibles.</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- RARETES -->
+<section id="raretes">
+  <div class="s-inner">
+    <p class="s-label rv" data-i18n="section.04">Chapitre 04</p>
+    <h2 class="s-title rv" data-i18n="rar.title">Raretés des <em>armes</em></h2>
+    <p class="s-desc rv" data-i18n="rar.desc">Chaque arme a une couleur de rareté. Plus elle est rare, meilleures sont ses statistiques.</p>
+    <div class="rarity-list rv">
+      <div class="rarity-row"><div class="r-dot" style="background:#808080;"></div><div class="r-name" data-i18n="rar1">Commun</div><div class="r-desc" data-i18n="rar1d">Gris — Stats minimales. À remplacer dès que possible au début de partie.</div></div>
+      <div class="rarity-row"><div class="r-dot" style="background:#4CAF50;"></div><div class="r-name" data-i18n="rar2">Peu commun</div><div class="r-desc" data-i18n="rar2d">Vert — Nette amélioration. Ce qu'on trouve généralement dans les coffres en début de partie.</div></div>
+      <div class="rarity-row"><div class="r-dot" style="background:#2196F3;"></div><div class="r-name" data-i18n="rar3">Rare</div><div class="r-desc" data-i18n="rar3d">Bleu — Bon niveau. La majorité des parties sérieuses se jouent avec des armes bleues minimum.</div></div>
+      <div class="rarity-row"><div class="r-dot" style="background:#9B59B6;"></div><div class="r-name" data-i18n="rar4">Épique</div><div class="r-desc" data-i18n="rar4d">Violet — Excellente arme. Dégâts élevés et très précise. Cherchez les coffres dans les zones chaudes.</div></div>
+      <div class="rarity-row"><div class="r-dot" style="background:#FFD700;"></div><div class="r-name" data-i18n="rar5">Légendaire</div><div class="r-desc" data-i18n="rar5d">Or — Stats maximales. Trouvée dans les coffres dorés rares ou en récompense de boss.</div></div>
+      <div class="rarity-row"><div class="r-dot" style="background:linear-gradient(135deg,#00c3ff,#ff6b6b,#ffd700);"></div><div class="r-name" data-i18n="rar6">Mythique</div><div class="r-desc" data-i18n="rar6d">Arc-en-ciel — Une seule par partie. Liée à un boss ou événement. Puissance absolue.</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- CONSEILS -->
+<section id="conseils">
+  <div class="s-inner">
+    <p class="s-label rv" data-i18n="section.05">Chapitre 05</p>
+    <h2 class="s-title rv" data-i18n="tips.title">Conseils de <em>Pro</em></h2>
+    <p class="s-desc rv" data-i18n="tips.desc">Tu veux accumuler les Victoires Royales ? Voici les 8 tips essentiels des joueurs compétitifs.</p>
+    <div class="tips">
+      <div class="tip rv"><div class="tip-num">01</div><div><div class="tip-title" data-i18n="tip1.t">Atterris loin du bus</div><div class="tip-text" data-i18n="tip1.d">Sauter loin de la trajectoire = moins de monde. Idéal pour looter tranquillement et apprendre sans pression immédiate.</div></div></div>
+      <div class="tip rv"><div class="tip-num">02</div><div><div class="tip-title" data-i18n="tip2.t">Joue avec un casque</div><div class="tip-text" data-i18n="tip2.d">Les pas, constructions et tirs se repèrent à l'oreille. Un bon casque change radicalement l'expérience de jeu.</div></div></div>
+      <div class="tip rv"><div class="tip-num">03</div><div><div class="tip-title" data-i18n="tip3.t">Surveille la tempête</div><div class="tip-text" data-i18n="tip3.d">Toujours vérifier le cercle sur la minimap. Se retrouver dans la tempête est l'erreur la plus fréquente des débutants.</div></div></div>
+      <div class="tip rv"><div class="tip-num">04</div><div><div class="tip-title" data-i18n="tip4.t">Construis sous les tirs</div><div class="tip-text" data-i18n="tip4.d">Dès que tu prends des dégâts, pose un mur ! La construction réflexe peut te sauver la vie à tout moment.</div></div></div>
+      <div class="tip rv"><div class="tip-num">05</div><div><div class="tip-title" data-i18n="tip5.t">Soigne-toi après chaque combat</div><div class="tip-text" data-i18n="tip5.d">Ne passe jamais au combat suivant sans te soigner. 30 PV vs 100 PV, l'issue est prévisible.</div></div></div>
+      <div class="tip rv"><div class="tip-num">06</div><div><div class="tip-title" data-i18n="tip6.t">Patience en fin de partie</div><div class="tip-text" data-i18n="tip6.d">Dans le top 10, la patience est plus payante que l'agression. Laisse les autres s'éliminer entre eux.</div></div></div>
+      <div class="tip rv"><div class="tip-num">07</div><div><div class="tip-title" data-i18n="tip7.t">Maîtrise 2–3 armes</div><div class="tip-text" data-i18n="tip7.d">Pompe (courte distance) + AR (longue distance) + SMG ou sniper. Une combo efficace vaut mieux que 5 armes inconnues.</div></div></div>
+      <div class="tip rv"><div class="tip-num">08</div><div><div class="tip-title" data-i18n="tip8.t">Commence en Zéro Build</div><div class="tip-text" data-i18n="tip8.d">Si la construction te semble complexe, Zéro Build est parfait pour apprendre l'aim et le positionnement sans pression.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- STATS & RECORDS -->
+<section id="stats">
+  <div class="s-inner">
+    <p class="s-label rv" data-i18n="section.06">Chapitre 06</p>
+    <h2 class="s-title rv" data-i18n="stats.title">Stats & <em>Records</em></h2>
+    <p class="s-desc rv" data-i18n="stats.desc">Fortnite en chiffres — les statistiques et records officiels qui font du jeu un phénomène mondial sans équivalent.</p>
+
+    <!-- BIG NUMBERS -->
+    <div class="stat-big rv" id="bigStats"></div>
+
+    <!-- CHARTS ROW -->
+    <div class="stat-charts rv">
+      <div class="stat-chart-card">
+        <div class="stat-chart-title" data-i18n="stat.players.title">📈 Joueurs actifs par année</div>
+        <div class="bar-chart" id="barChart"></div>
+      </div>
+      <div class="stat-chart-card">
+        <div class="stat-chart-title" data-i18n="stat.revenue.title">💰 Revenus Epic Games (Fortnite)</div>
+        <div class="bar-chart" id="revenueChart"></div>
+      </div>
+    </div>
+
+    <!-- RECORDS -->
+    <h3 class="s-title rv" style="font-size:1.6rem;margin-bottom:1.25rem;" data-i18n="stat.records">🏆 Records officiels</h3>
+    <div class="records-grid rv" id="recordsGrid"></div>
+
+    <!-- MODES PIE -->
+    <div class="stat-split rv">
+      <div class="stat-split-card">
+        <div class="stat-chart-title" data-i18n="stat.modes.title">🎮 Répartition des modes joués</div>
+        <div class="donut-wrap">
+          <svg id="donut" viewBox="0 0 200 200" width="200" height="200"></svg>
+          <div class="donut-legend" id="donutLegend"></div>
+        </div>
+      </div>
+      <div class="stat-split-card">
+        <div class="stat-chart-title" data-i18n="stat.platforms.title">🖥️ Plateformes des joueurs</div>
+        <div class="hbar-chart" id="platformChart"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- V-BUCKS -->
+<section id="boutique">
+  <div class="s-inner">
+    <p class="s-label rv" data-i18n="section.07">Chapitre 07</p>
+    <h2 class="s-title rv" data-i18n="vb.title">V-Bucks & <em>Prix</em></h2>
+    <p class="s-desc rv" data-i18n="vb.desc">La monnaie de Fortnite. Tout s'achète en V-Bucks. Les prix ont changé le 19 mars 2026 avec la Saison 2.</p>
+    <div class="vb-grid rv">
+      <div class="vb-card"><div class="vb-amt">800</div><div class="vb-lbl">V-Bucks</div><div class="vb-price">8,99 €</div><div class="vb-old">Avant : 1 000 V</div></div>
+      <div class="vb-card"><div class="vb-amt">2 400</div><div class="vb-lbl">V-Bucks</div><div class="vb-price">22,99 €</div><div class="vb-old">Avant : 2 800 V</div></div>
+      <div class="vb-card best"><div class="vb-amt">4 500</div><div class="vb-lbl">V-Bucks</div><div class="vb-price">36,99 €</div><div class="vb-old">Avant : 5 000 V</div></div>
+      <div class="vb-card"><div class="vb-amt">12 500</div><div class="vb-lbl">V-Bucks</div><div class="vb-price">89,99 €</div><div class="vb-old">Avant : 13 500 V</div></div>
+    </div>
+    <div class="vb-warn rv" data-i18n="vb.warn">⚠️ <strong>Hausse de prix !</strong> Depuis le 19 mars 2026, Epic Games a réduit le nombre de V-Bucks par pack tout en maintenant les mêmes prix en euros. Le Battle Pass coûte 800 V-Bucks — et tu en regagnes 800 en le terminant. Astuce : les achats via l'Epic Games Store donnent 20% en crédits remboursés.</div>
+  </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- ESPORT -->
+<section id="esport">
+  <div class="s-inner">
+    <p class="s-label rv" data-i18n="section.08">Chapitre 08</p>
+    <h2 class="s-title rv" data-i18n="esport.title">Les <em>Teams</em> Esport</h2>
+    <p class="s-desc rv" data-i18n="esport.desc">Les organisations qui sponsorisent les meilleurs duos du monde pour le circuit FNCS 2026.</p>
+    <div class="teams">
+      <div class="team rv"><div class="team-logo" style="background:rgba(0,195,255,.1);">💧</div><div><div class="team-name">Team Liquid</div><div class="team-region">🌍 International</div><div class="team-players">Roster multi-régions EU et NAC. Présents dans le compétitif Fortnite depuis les débuts.</div><span class="team-tag">FNCS Réguliers</span></div></div>
+      <div class="team rv"><div class="team-logo" style="background:rgba(255,0,80,.1);">💥</div><div><div class="team-name">FaZe Clan</div><div class="team-region">🌍 International</div><div class="team-players">Organisation iconique du gaming. Style agressif, énorme communauté de fans worldwide.</div><span class="team-tag">Top Org</span></div></div>
+      <div class="team rv"><div class="team-logo" style="background:rgba(0,255,120,.1);">🐊</div><div><div class="team-name">NRG Esports</div><div class="team-region">🇺🇸 NA Central</div><div class="team-players">Powerhouse nord-américain. Ont signé plusieurs des meilleurs joueurs NA depuis le World Cup.</div><span class="team-tag">Top NA</span></div></div>
+      <div class="team rv"><div class="team-logo" style="background:rgba(255,165,0,.1);">🦊</div><div><div class="team-name">G2 Esports</div><div class="team-region">🇪🇺 Europe</div><div class="team-players">Géant européen. Régulièrement dans les top 10 des FNCS Majors EU chaque saison.</div><span class="team-tag">EU Powerhouse</span></div></div>
+      <div class="team rv"><div class="team-logo" style="background:rgba(155,89,182,.1);">🧬</div><div><div class="team-name">Dignitas</div><div class="team-region">🌍 International</div><div class="team-players">Acorn (Abdullah Akhras) — vainqueur FNCS Major 1 en 2024 et 2025. L'équipe la plus régulière.</div><span class="team-tag">#1 Team 2026</span></div></div>
+      <div class="team rv"><div class="team-logo" style="background:rgba(255,215,0,.1);">🧠</div><div><div class="team-name">Gen.G</div><div class="team-region">🌍 International</div><div class="team-players">Ajerss (Aidan Bernero) — vainqueur Major 1 2025, top 2 Major 3 LAN. En pleine montée en puissance.</div><span class="team-tag">#2 Team 2026</span></div></div>
+      <div class="team rv"><div class="team-logo" style="background:rgba(0,195,255,.08);">🌀</div><div><div class="team-name">Twisted Minds</div><div class="team-region">🇪🇺 Europe</div><div class="team-players">Cold & Vic0/Flickzy — Multiple Cash Cup wins. Organisation EU montante, régulière en finales.</div><span class="team-tag">EU Rising</span></div></div>
+      <div class="team rv"><div class="team-logo" style="background:rgba(255,100,100,.1);">🔴</div><div><div class="team-name">Fnatic</div><div class="team-region">🇪🇺 Europe</div><div class="team-players">Institution de l'esport depuis 2004. Expérience multi-jeux et structure solide pour leurs joueurs.</div><span class="team-tag">EU Historic</span></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- TOURNOIS -->
+<section id="tournois">
+  <div class="s-inner">
+    <p class="s-label rv" data-i18n="section.09">Chapitre 09</p>
+    <h2 class="s-title rv" data-i18n="tourn.title">Les <em>Tournois</em> 2026</h2>
+    <p class="s-desc rv" data-i18n="tourn.desc">Le FNCS 2026 en format Duos avec une prize pool totale de plus de <strong style="color:var(--y)">10 000 000 $</strong>. Calendrier complet de la saison compétitive.</p>
+    <div class="tourn-list rv">
+      <div class="tourn maj"><div><div class="tourn-name">⚡ FNCS Trial</div><div class="tourn-date">📅 31 janvier 2026 — Terminé</div><div class="tourn-desc">Événement d'ouverture. Les duos sont classés dans des divisions selon leur performance. Point de départ de la montée compétitive.</div><span class="badge badge-online">Online · Terminé</span></div><div><div class="tourn-prize-val">Qualif.</div><div class="tourn-prize-lbl">Placement</div></div></div>
+      <div class="tourn maj"><div><div class="tourn-name">🥇 FNCS Major 1</div><div class="tourn-date">📅 6 – 26 avril 2026</div><div class="tourn-desc">Premier Major de la saison. Play-ins, Heats, LCQ et Finals en ligne. Les vainqueurs reçoivent la Hache des Champions 3.0.</div><span class="badge badge-online">Online · Duos</span></div><div><div class="tourn-prize-val">$2M</div><div class="tourn-prize-lbl">Prize Pool</div></div></div>
+      <div class="tourn lan"><div><div class="tourn-name">🏟️ FNCS Major 1 Summit — LAN</div><div class="tourn-date">📅 Mai 2026 · Düsseldorf, Allemagne</div><div class="tourn-desc">Premier LAN de l'année. 50 duos des meilleures régions s'affrontent en présentiel au PSD Bank Dome.</div><span class="badge badge-lan">🔴 LAN · Présentiel</span></div><div><div class="tourn-prize-val">$1M</div><div class="tourn-prize-lbl">Prize Pool</div></div></div>
+      <div class="tourn maj"><div><div class="tourn-name">🥈 FNCS Major 2</div><div class="tourn-date">📅 20 juillet – 9 août 2026</div><div class="tourn-desc">Deuxième Major en ligne. Les 26 meilleurs duos du classement se qualifient directement pour le Global Championship.</div><span class="badge badge-online">Online · Duos</span></div><div><div class="tourn-prize-val">$2M</div><div class="tourn-prize-lbl">Prize Pool</div></div></div>
+      <div class="tourn maj"><div><div class="tourn-name">🥉 FNCS Major 3</div><div class="tourn-date">📅 21 sept. – 11 oct. 2026</div><div class="tourn-desc">Dernier Major en ligne. Les 19 meilleurs duos se qualifient pour le Global Championship. Dernière chance.</div><span class="badge badge-online">Online · Duos</span></div><div><div class="tourn-prize-val">$2M</div><div class="tourn-prize-lbl">Prize Pool</div></div></div>
+      <div class="tourn lan"><div><div class="tourn-name">🌍 Esports World Cup — Fortnite</div><div class="tourn-date">📅 Août 2026 · Riyadh, Arabie Saoudite</div><div class="tourn-desc">Epic & EWC s'associent pour le Reload Elite Series Championship en Duos. 4 phases de qualification en cours.</div><span class="badge badge-lan">🔴 LAN · EWC</span></div><div><div class="tourn-prize-val">$1M</div><div class="tourn-prize-lbl">Prize Pool</div></div></div>
+      <div class="tourn wld"><div><div class="tourn-name">🏆 FNCS Global Championship 2026</div><div class="tourn-date">📅 Novembre 2026 · Lieu à confirmer</div><div class="tourn-desc">L'événement ultime. 50 duos mondiaux, 12 matchs en 2 jours. Scores = placements + éliminations.</div><span class="badge badge-world">👑 Grand Final · LAN</span></div><div><div class="tourn-prize-val">$2M</div><div class="tourn-prize-lbl">Prize Pool</div></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- CLASSEMENTS -->
+<section id="classements">
+  <div class="s-inner">
+    <p class="s-label rv" data-i18n="section.10">Chapitre 10</p>
+    <h2 class="s-title rv" data-i18n="rank.title">Classements <em>Pro</em></h2>
+    <p class="s-desc rv" data-i18n="rank.desc">Top joueurs mondiaux et top teams de la scène compétitive Fortnite 2026.</p>
+    <h3 class="s-title rv" style="font-size:1.6rem;margin-bottom:1.25rem;" data-i18n="rank.players">🏆 Top 10 Joueurs Mondiaux</h3>
+    <div class="rank-list rv" id="playerRanking"></div>
+    <h3 class="s-title rv" style="font-size:1.6rem;margin-top:3rem;margin-bottom:1.25rem;" data-i18n="rank.teams">🏢 Top 8 Teams Esport</h3>
+    <div class="rank-list rv" id="teamRanking"></div>
+  </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- PATCH NOTES -->
+<section id="patch">
+  <div class="s-inner">
+    <p class="s-label rv" data-i18n="section.11">Chapitre 11</p>
+    <h2 class="s-title rv" data-i18n="patch.title">Patch Notes & <em>MAJ</em></h2>
+    <p class="s-desc rv" data-i18n="patch.desc">Toutes les mises à jour du Chapitre 7 — la prochaine est la v40.00 le 19 mars 2026 (Saison 2 "Showdown").</p>
+    <h3 class="s-title rv" style="font-size:1.5rem;margin-bottom:1rem;" data-i18n="patch.roadmap">🗓️ Roadmap officielle 2026</h3>
+    <div class="rv" style="overflow-x:auto;margin-bottom:2.5rem;">
+      <table class="roadmap-table" id="roadmapTable"><thead><tr><th data-i18n="rm.ver">Version</th><th data-i18n="rm.date">Date</th><th data-i18n="rm.content">Contenu</th><th data-i18n="rm.status">Statut</th></tr></thead><tbody id="roadmapBody"></tbody></table>
+    </div>
+    <div class="patch-list rv">
+      <div class="patch upcoming"><div class="patch-top"><span class="patch-ver">v40.00</span><span class="patch-date">🗓️ 19 mars 2026</span><span class="patch-upcoming">🔜 Dans 3 jours</span></div><div class="patch-title" data-i18n="p1.t">⚔️ Chapitre 7 Saison 2 — "SHOWDOWN"</div><div class="patch-desc" data-i18n="p1.d">La Saison 2 introduit un affrontement entre The Foundation et l'Ice King. Les joueurs choisissent un camp. Nouveau SMG dans le loot pool. Sauver le Monde passe en free-to-play le 16 avril.</div><div class="patch-tags"><span class="ptag">Ice King vs Foundation</span><span class="ptag">Nouveau SMG</span><span class="ptag">STW Free</span><span class="ptag">Looney Tunes</span><span class="ptag">Marvel</span></div></div>
+      <div class="patch latest"><div class="patch-top"><span class="patch-ver">v39.51</span><span class="patch-date">🗓️ ~10 mars 2026</span><span class="patch-new">✅ Dernière MAJ</span></div><div class="patch-title" data-i18n="p2.t">Wild Week 1 — Armes OG de retour</div><div class="patch-desc" data-i18n="p2.d">La Wild Week 1 remet en jeu des armes OG iconiques dans le loot pool. Les skins Rick &amp; Morty débarquent en boutique. L'événement Lantern Fest 2026 est toujours actif.</div><div class="patch-tags"><span class="ptag">Armes OG remises en jeu</span><span class="ptag">Rick &amp; Morty</span><span class="ptag">Lantern Fest</span></div></div>
+      <div class="patch"><div class="patch-top"><span class="patch-ver">v39.50</span><span class="patch-date">🗓️ 19 février 2026</span></div><div class="patch-title">Solo Leveling × Honkai: Star Rail</div><div class="patch-desc">Sung Jin-Woo de Solo Leveling et des personnages de Honkai: Star Rail font leur entrée. Dark Voyager storyline avancée. Lantern Fest 2026 lancé.</div><div class="patch-tags"><span class="ptag">Solo Leveling</span><span class="ptag">Honkai: Star Rail</span><span class="ptag">Dark Voyager</span></div></div>
+      <div class="patch"><div class="patch-top"><span class="patch-ver">v39.40</span><span class="patch-date">🗓️ 5 février 2026</span></div><div class="patch-title">Chappell Roan + Saint-Valentin</div><div class="patch-desc">Chappell Roan rejoint l'Icon Series. Événement Saint-Valentin avec des cosmétiques gratuits. Teasers K-Pop Demon Hunters et Overwatch.</div><div class="patch-tags"><span class="ptag">Chappell Roan</span><span class="ptag">Icon Series</span><span class="ptag">Saint-Valentin</span></div></div>
+      <div class="patch major"><div class="patch-top"><span class="patch-ver">v39.20</span><span class="patch-date">🗓️ 9 janvier 2026</span></div><div class="patch-title">South Park × The Stick of Truth</div><div class="patch-desc">Stan, Cartman, Butters, Kenny et Kyle débarquent. The Stick of Truth permet de contrôler la Tempête. Mini-Pass South Park inclus.</div><div class="patch-tags"><span class="ptag">South Park x5</span><span class="ptag">The Stick of Truth</span><span class="ptag">Mini-Pass</span></div></div>
+      <div class="patch major"><div class="patch-top"><span class="patch-ver">v39.00</span><span class="patch-date">🗓️ Novembre 2025</span></div><div class="patch-title">🌊 Lancement Chapitre 7 Saison 1 — Pacific Break</div><div class="patch-desc">Nouvelle île à thème Pacifique. Zones d'eau, plages tropicales, mécanique de surf sur vague. Battle Pass C7S1 lancé.</div><div class="patch-tags"><span class="ptag">Nouvelle carte</span><span class="ptag">Pacific Break</span><span class="ptag">Surf</span></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- VIDEOS -->
+<section id="videos">
+  <div class="s-inner">
+    <p class="s-label rv" data-i18n="section.12">Chapitre 12</p>
+    <h2 class="s-title rv" data-i18n="vids.title">Vidéos <em>Incontournables</em></h2>
+    <p class="s-desc rv" data-i18n="vids.desc">Les meilleures chaînes pour progresser, suivre la scène compétitive et rester informé des actualités Fortnite.</p>
+    <div class="vids rv">
+      <div class="vid"><a class="vid-thumb" href="https://www.youtube.com/@Bugha" target="_blank" style="background:linear-gradient(135deg,#0d1a2e,#1a2d50);"><div class="vid-play">▶</div></a><div class="vid-body"><div class="vid-title">Bugha</div><div class="vid-ch">📺 YouTube / Twitch</div><div class="vid-desc">Champion du monde 2019. Contenu compétitif haut niveau, POV de tournois, tips de pro. Référence absolue.</div></div></div>
+      <div class="vid"><a class="vid-thumb" href="https://www.youtube.com/@Clix" target="_blank" style="background:linear-gradient(135deg,#1a0a2e,#2d1a50);"><div class="vid-play">▶</div></a><div class="vid-body"><div class="vid-title">Clix</div><div class="vid-ch">📺 YouTube / Twitch</div><div class="vid-desc">Un des streamers NA les plus populaires. Gameplay agressif, live arena et tournois. Très divertissant.</div></div></div>
+      <div class="vid"><a class="vid-thumb" href="https://www.youtube.com/@Peterbot" target="_blank" style="background:linear-gradient(135deg,#001a10,#003020);"><div class="vid-play">▶</div></a><div class="vid-body"><div class="vid-title">Peterbot</div><div class="vid-ch">📺 YouTube / Twitch</div><div class="vid-desc">Considéré comme le meilleur joueur actuel. Mécanique irréprochable à observer pour progresser.</div></div></div>
+      <div class="vid"><a class="vid-thumb" href="https://www.youtube.com/@Tabor_Hill" target="_blank" style="background:linear-gradient(135deg,#1a1000,#2a1800);"><div class="vid-play">▶</div></a><div class="vid-body"><div class="vid-title">Tabor Hill</div><div class="vid-ch">📺 YouTube</div><div class="vid-desc">Référence pour les actualités, leaks et analyses de chaque saison. Parfait pour rester informé.</div></div></div>
+      <div class="vid"><a class="vid-thumb" href="https://www.youtube.com/FortniteCompetitive" target="_blank" style="background:linear-gradient(135deg,#0a0015,#150025);"><div class="vid-play">▶</div></a><div class="vid-body"><div class="vid-title">Fortnite Competitive</div><div class="vid-ch">📺 Chaîne officielle Epic</div><div class="vid-desc">Broadcasts officiels des FNCS Majors et Global Championship. Production esport professionnelle.</div></div></div>
+      <div class="vid"><a class="vid-thumb" href="https://www.youtube.com/@Ninja" target="_blank" style="background:linear-gradient(135deg,#001520,#002535);"><div class="vid-play">▶</div></a><div class="vid-body"><div class="vid-title">Ninja</div><div class="vid-ch">📺 YouTube / Twitch</div><div class="vid-desc">Le streamer qui a popularisé Fortnite en 2018. Contenu accessible et idéal pour les débutants.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- RÉSEAUX -->
+<section id="reseaux">
+  <div class="s-inner">
+    <p class="s-label rv" data-i18n="section.13">Chapitre 13</p>
+    <h2 class="s-title rv" data-i18n="soc.title">Réseaux <em>Officiels</em></h2>
+    <p class="s-desc rv" data-i18n="soc.desc">Suis Fortnite sur tous les réseaux pour ne rater aucune annonce, teaser de saison ou tournoi.</p>
+    <div class="socials rv">
+      <a href="https://x.com/FortniteGame" target="_blank" class="soc" style="border-color:rgba(255,255,255,.12);"><div class="soc-ico" style="background:#000;border:1px solid #333;"><svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></div><div><div class="soc-name">X / Twitter</div><div class="soc-handle">@FortniteGame</div><div class="soc-fans">33M+ abonnés</div></div></a>
+      <a href="https://www.instagram.com/fortnite" target="_blank" class="soc" style="border-color:rgba(225,48,108,.25);"><div class="soc-ico" style="background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);"><svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></div><div><div class="soc-name">Instagram</div><div class="soc-handle">@fortnite</div><div class="soc-fans">12M+ abonnés</div></div></a>
+      <a href="https://www.youtube.com/@Fortnite" target="_blank" class="soc" style="border-color:rgba(255,0,0,.25);"><div class="soc-ico" style="background:#ff0000;"><svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></div><div><div class="soc-name">YouTube</div><div class="soc-handle">@Fortnite</div><div class="soc-fans">14M+ abonnés</div></div></a>
+      <a href="https://www.tiktok.com/@fortnite" target="_blank" class="soc" style="border-color:rgba(0,242,234,.2);"><div class="soc-ico" style="background:#010101;"><svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.93a8.17 8.17 0 004.78 1.53V7.01a4.85 4.85 0 01-1.01-.32z"/></svg></div><div><div class="soc-name">TikTok</div><div class="soc-handle">@fortnite</div><div class="soc-fans">10M+ abonnés</div></div></a>
+      <a href="https://discord.gg/fortnite" target="_blank" class="soc" style="border-color:rgba(88,101,242,.3);"><div class="soc-ico" style="background:#5865F2;"><svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.002.022.015.044.033.056a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128c.126-.094.252-.192.372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.3 12.3 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg></div><div><div class="soc-name">Discord</div><div class="soc-handle">discord.gg/fortnite</div><div class="soc-fans">Serveur officiel</div></div></a>
+      <a href="https://www.reddit.com/r/FortNiteBR/" target="_blank" class="soc" style="border-color:rgba(255,69,0,.25);"><div class="soc-ico" style="background:#ff4500;"><svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg></div><div><div class="soc-name">Reddit</div><div class="soc-handle">r/FortNiteBR</div><div class="soc-fans">3M+ membres</div></div></a>
+      <a href="https://www.fortnite.com/news" target="_blank" class="soc" style="border-color:rgba(255,215,0,.25);"><div class="soc-ico" style="background:var(--y);"><span style="font-size:1.2rem;color:#000;">🌐</span></div><div><div class="soc-name">Site Officiel</div><div class="soc-handle">fortnite.com/news</div><div class="soc-fans">Patch notes officiels</div></div></a>
+    </div>
+  </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- GLOSSAIRE -->
+<section id="glossaire">
+  <div class="s-inner">
+    <p class="s-label rv" data-i18n="section.14">Chapitre 14</p>
+    <h2 class="s-title rv" data-i18n="gloss.title">Le <em>Glossaire</em></h2>
+    <p class="s-desc rv" data-i18n="gloss.desc">Les termes que tout joueur Fortnite doit connaître pour parler comme un pro.</p>
+    <div class="gloss rv">
+      <div class="gl"><div class="gl-term">Victory Royale</div><div class="gl-def" data-i18n="gl1">Gagner une partie. Le dernier joueur ou la dernière équipe en vie remporte la Victoire Royale.</div></div>
+      <div class="gl"><div class="gl-term">Loot</div><div class="gl-def" data-i18n="gl2">Les objets, armes et ressources que tu ramasses pendant la partie.</div></div>
+      <div class="gl"><div class="gl-term">Tilted</div><div class="gl-def" data-i18n="gl3">Être frustré ou énervé après une mort ou une erreur. "Je suis trop tilted là."</div></div>
+      <div class="gl"><div class="gl-term">Box Fight</div><div class="gl-def" data-i18n="gl4">Combat rapproché dans une structure construite (une "boîte" de murs). Technique avancée de fin de partie.</div></div>
+      <div class="gl"><div class="gl-term">Third Party</div><div class="gl-def" data-i18n="gl5">Attaquer deux joueurs qui se battent déjà pour profiter de leur état affaibli.</div></div>
+      <div class="gl"><div class="gl-term">Sweat</div><div class="gl-def" data-i18n="gl6">Joueur très compétitif et agressif. Souvent utilisé de manière semi-péjorative.</div></div>
+      <div class="gl"><div class="gl-term">Ratting</div><div class="gl-def" data-i18n="gl7">Stratégie passive : se planquer, éviter tout combat, attendre que les autres s'éliminent.</div></div>
+      <div class="gl"><div class="gl-term">Rotation</div><div class="gl-def" data-i18n="gl8">Se déplacer vers le prochain cercle de tempête de manière stratégique et sécurisée.</div></div>
+      <div class="gl"><div class="gl-term">One Shot</div><div class="gl-def" data-i18n="gl9">Un joueur à 1 PV — il peut être éliminé d'un seul coup.</div></div>
+      <div class="gl"><div class="gl-term">Drop</div><div class="gl-def" data-i18n="gl10">L'action de sauter du bus de combat et d'atterrir sur la carte.</div></div>
+      <div class="gl"><div class="gl-term">W-Key</div><div class="gl-def" data-i18n="gl11">Jouer très agressif en allant constamment vers les ennemis. "Il joue full W-Key."</div></div>
+      <div class="gl"><div class="gl-term">Storm Surge</div><div class="gl-def" data-i18n="gl12">Mécanisme de tournoi : si trop peu de joueurs sont éliminés, ceux ayant le moins de dégâts perdent des PV.</div></div>
+      <div class="gl"><div class="gl-term">Edits</div><div class="gl-def" data-i18n="gl13">Modifier rapidement une structure construite pour surprendre l'adversaire. Compétence clé des sweats.</div></div>
+      <div class="gl"><div class="gl-term">Bot</div><div class="gl-def" data-i18n="gl14">Joueur très mauvais, ou véritable IA insérée par le jeu pour les débutants.</div></div>
+      <div class="gl"><div class="gl-term">IGL</div><div class="gl-def" data-i18n="gl15">In-Game Leader — le joueur qui prend les décisions tactiques pendant les tournois en équipe.</div></div>
+      <div class="gl"><div class="gl-term">Zone Wars</div><div class="gl-def" data-i18n="gl16">Mode créatif simulant les fins de partie en zone. Utilisé pour s'entraîner par les joueurs compétitifs.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-logo">⚡ FORTPEDIA</div>
+  <p class="foot-credit" data-i18n="foot.credit">Site conçu et développé par <span style="color:var(--y);font-family:var(--font-hero);letter-spacing:2px;">RACHID</span> — Tous droits réservés © 2026</p>
+  <p class="foot-cr" data-i18n="foot.cr">Toute reproduction, même partielle, est interdite sans autorisation écrite du créateur.</p>
+  <p class="foot-disc" data-i18n="foot.disc">FORTPEDIA est non officiel et n'est pas affilié à Epic Games. Fortnite® est une marque déposée d'Epic Games, Inc.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
